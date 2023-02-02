@@ -1,0 +1,17 @@
+.post-category p {
+    margin-right: 20px;
+}
+.post-category p:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.post-button button{
+    width: 133px;
+    height: 35px;
+}
+
+.post-button select{
+    width: 140px;
+    height: 35px;
+}
