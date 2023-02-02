@@ -1,15 +1,12 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Banner from './Components/Banner/Banner';
-import PostSection from './Components/Post-section/PostSection';
-import TopNavbar from './Components/Top-Navbar/TopNavbar';
+import routes from './Components/Routes/Routes';
 
 function App() {
 
   return (
     <div>
-      <TopNavbar></TopNavbar>
-      <Banner></Banner>
-      <PostSection></PostSection>
+      <RouterProvider router={routes}></RouterProvider>
     </div>
   );
 }
